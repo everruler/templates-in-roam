@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name        Roam Templates
+// @name        Templates in Roam
 // @namespace   https://eriknewhard.com/
 // @description Add template button to Roam to easily insert custom templates
 // @author      everruler
-// @version     0.5
+// @version     0.6
 // @match       https://roamresearch.com/#/app/*
 // @grant       none
 // @require     https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js
@@ -123,6 +123,7 @@ function init() {
         methods: {
             click() {
                 this.show_panel = !this.show_panel
+                this.hoverOut()
                 Vue.nextTick().then(this.updateRightPos)
             },
             hoverIn() {
