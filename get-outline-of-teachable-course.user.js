@@ -3,7 +3,7 @@
 // @namespace   https://eriknewhard.com/
 // @author      everruler12
 // @description Adds a button to Teachable's header navbar, which opens a panel letting you easily copy a course's outline to your note-taking app.
-// @version     1.1
+// @version     1.2
 // @license     ISC
 // @icon        https://teachable.com/favicon.ico
 // @grant       none
@@ -18,28 +18,6 @@ if ($('meta[name="asset_host"]') &&
     $('meta[name="asset_host"]').attr('content') == 'https://fedora.teachablecdn.com') {
     init()
 }
-
-
-
-// const pathname = window.location.pathname.split('/')
-
-// // pathname pattern is course main page: /courses/enrolled/000000
-// if (pathname[1] == 'courses' &&
-//     pathname[2] == 'enrolled' &&
-//     pathname[3].match(/\d*/) &&
-//     pathname[4] === undefined) {
-
-// }
-
-// // pathname pattern is lecture page: /courses/000000/lectures/00000000
-// if (pathname[1] == 'courses' &&
-//     pathname[2].match(/\d*/) &&
-//     pathname[3] == 'lectures' &&
-//     pathname[4].match(/\d*/) &&
-//     pathname[5] === undefined) {
-
-// }
-
 
 
 function init() {
