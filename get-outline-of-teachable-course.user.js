@@ -3,7 +3,7 @@
 // @namespace   https://eriknewhard.com/
 // @author      everruler12
 // @description Adds a button to Teachable's header navbar, which opens a panel letting you easily copy a course's outline to your note-taking app.
-// @version     1.2
+// @version     1.3
 // @license     ISC
 // @icon        https://teachable.com/favicon.ico
 // @grant       none
