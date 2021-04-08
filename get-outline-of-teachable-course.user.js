@@ -47,7 +47,7 @@ function init() {
 `)
 
     $('.lecture-left > .nav-icon-back').after(button)
-    $('.course-sidebar > .course-progress').prepend(panel)
+    $('.course-sidebar .course-progress').prepend(panel)
 
     var vm_panel = new Vue({
         el: '#EV_userscript-panel',
