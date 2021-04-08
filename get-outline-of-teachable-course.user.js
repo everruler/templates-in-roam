@@ -46,7 +46,7 @@ function init() {
 </div>
 `)
 
-    $('.lecture-left > .nav-icon-back').after(button)
+    $('.lecture-left').children().first().after(button)
     $('.course-sidebar .course-progress').prepend(panel)
 
     var vm_panel = new Vue({
